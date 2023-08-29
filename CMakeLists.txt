@@ -9,7 +9,17 @@ add_executable(btcpp_sample main.cpp)
 
 find_package(ament_cmake QUIET)
 
-set(behaviortree_cpp_DIR "${CMAKE_CURRENT_SOURCE_DIR}/lib/cmake/behaviortree_cpp")
+if( NOT CMAKE_BUILD_TYPE )
+    set( CMAKE_BUILD_TYPE Release CACHE STRING "Choose the type of build, options are: None Debug Release RelWithDebInfo
+MinSizeRel." FORCE )
+endif()
+
+if( CMAKE_BUILD_TYPE MATCHES Release)
+    set(behaviortree_cpp_DIR "${CMAKE_CURRENT_SOURCE_DIR}/lib_release/cmake/behaviortree_cpp")
+else()
+    set(behaviortree_cpp_DIR "${CMAKE_CURRENT_SOURCE_DIR}/lib_debug/cmake/behaviortree_cpp")
+endif()
+
 if(ament_cmake_FOUND)
 
     find_package(behaviortree_cpp REQUIRED)

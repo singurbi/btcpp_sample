@@ -31,7 +31,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 28,
+				"line" : 38,
 				"parent" : 0
 			}
 		]
@@ -89,12 +89,12 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,-rpath,/home/joongsup/dev/BT.CPP/btcpp_sample/lib",
+				"fragment" : "-Wl,-rpath,/home/joongsup/dev/BT.CPP/btcpp_sample/lib_debug",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "/home/joongsup/dev/BT.CPP/btcpp_sample/lib/libbehaviortree_cpp.so",
+				"fragment" : "/home/joongsup/dev/BT.CPP/btcpp_sample/lib_debug/libbehaviortree_cpp.so",
 				"role" : "libraries"
 			}
 		],
