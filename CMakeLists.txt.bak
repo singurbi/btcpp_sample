@@ -9,7 +9,6 @@ add_executable(btcpp_sample main.cpp)
 
 find_package(ament_cmake QUIET)
 
-set(behaviortree_cpp_DIR "${CMAKE_CURRENT_SOURCE_DIR}/lib/cmake/behaviortree_cpp")
 if(ament_cmake_FOUND)
 
     find_package(behaviortree_cpp REQUIRED)

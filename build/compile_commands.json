@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/joongsup/dev/BT.CPP/btcpp_sample/build",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.3.5\\\" -isystem /home/joongsup/dev/BT.CPP/btcpp_sample/include -g -std=gnu++17 -o CMakeFiles/btcpp_sample.dir/main.cpp.o -c /home/joongsup/dev/BT.CPP/btcpp_sample/main.cpp",
+  "file": "/home/joongsup/dev/BT.CPP/btcpp_sample/main.cpp",
+  "output": "CMakeFiles/btcpp_sample.dir/main.cpp.o"
+}
+]
